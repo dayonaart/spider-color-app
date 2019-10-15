@@ -76,7 +76,7 @@ class MyPageState extends State<MyPage> {
 
             // title: Text("Color Formula ( " + this.colorCode + " )"),
             // title: Text("Color Formula ( " + this.colorCode + " )"),
-            title: Text((this.colorName)+(this.colorCode)),
+            title: Text((this.colorName)+" "+(this.colorCode)),
           ),
           body: new Container(
             child: mapFormula != null && countFormula < 2
